@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.date-picker::-webkit-calendar-picker-indicator {
+  filter: invert(1) brightness(1.6);
+  opacity: 1;
+}
+
+.dark .date-picker::-webkit-calendar-picker-indicator {
+  filter: invert(1) brightness(2.2);
+}
